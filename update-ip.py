@@ -39,7 +39,7 @@ def get_served_version():
 
 
 def get_current_version():
-    return {"checked": now().isoformat(), "ipv4": get_ip("https://api.ipify.org/?format=json")}
+    return {"ipv4": get_ip("https://api.ipify.org/?format=json"),"checked": now().isoformat()}
 
 
 def update_served(_new):
