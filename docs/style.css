@@ -1,6 +1,6 @@
 body {
   height: 100vh;
-  background: radial-gradient(ellipse at bottom, #163233 60%, #0F8A5F 100%);
+  background: radial-gradient(ellipse at bottom, #163233 40%, #627843 100%);
   overflow: hidden;
   color: white;
   font-family: 'Inter';
